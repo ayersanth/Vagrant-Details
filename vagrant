@@ -1,0 +1,16 @@
+go to vagrant cloud
+find the box you want
+in terminal write: vagrant box add {name of box eg chesterwhitwell/YoobeeLAMP}
+create a file for your vagrant files
+go to it in terminal
+type: vagrant init
+change Vagrantfile to have box name rather than 'base'
+go to terminal and type: vagrant up
+to turn it off type: vagrant halt
+to check if there are vagrant servers running type: vagrant global-status
+or to turn off a specific server type: vagrant halt {id of vagrant}
+to destroy a vagrant server type: vagrant destroy {id of vagrant} (this doesn't destroy the files, just the server)
+
+
+
+vagrant network is: 192.168.33.10
